@@ -61,6 +61,7 @@
     <ownedAttribute xmi:id="_2rTzsA_rEeOR3fyA52KY-Q" name="attribute1" visibility="private"/>
     <ownedAttribute xmi:id="_3dYJ0A_rEeOR3fyA52KY-Q" name="attribute2" visibility="private"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_HOMbIBCEEeOwa8zsvYVPPw" name="Interface1"/>
   <profileApplication xmi:id="_vypsFA_mEeOR3fyA52KY-Q">
     <eAnnotations xmi:id="_vypsFQ_mEeOR3fyA52KY-Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
