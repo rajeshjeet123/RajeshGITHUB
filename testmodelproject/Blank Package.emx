@@ -31,13 +31,36 @@
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Lm_VsA_nEeOR3fyA52KY-Q" visible="false" type="StructureCompartment"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lm7EQQ_nEeOR3fyA52KY-Q" x="8334" y="5185"/>
       </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_gT0xIA_nEeOR3fyA52KY-Q" element="_gTrAIA_nEeOR3fyA52KY-Q" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gT3NYA_nEeOR3fyA52KY-Q" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_gT3NYQ_nEeOR3fyA52KY-Q" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_gT4bgA_nEeOR3fyA52KY-Q" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_gT4bgQ_nEeOR3fyA52KY-Q" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_gT5CkA_nEeOR3fyA52KY-Q" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_gT5poA_nEeOR3fyA52KY-Q" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_gT5poQ_nEeOR3fyA52KY-Q" type="OperationCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_gT6QsA_nEeOR3fyA52KY-Q" visible="false" type="SignalCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gT63wA_nEeOR3fyA52KY-Q" visible="false" type="StructureCompartment"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gT0xIQ_nEeOR3fyA52KY-Q" x="5820" y="3651"/>
+      </children>
     </contents>
   </eAnnotations>
   <packageImport xmi:id="_vypsEw_mEeOR3fyA52KY-Q">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_CjPdQA_nEeOR3fyA52KY-Q" name="Class1"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LmxTQA_nEeOR3fyA52KY-Q" name="Class2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CjPdQA_nEeOR3fyA52KY-Q" name="Class1">
+    <ownedAttribute xmi:id="_5Ty44A_rEeOR3fyA52KY-Q" name="attribute1" visibility="private"/>
+    <ownedAttribute xmi:id="_5UgDgA_rEeOR3fyA52KY-Q" name="attribute2" visibility="private"/>
+    <ownedAttribute xmi:id="_5VkagA_rEeOR3fyA52KY-Q" name="attribute3" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LmxTQA_nEeOR3fyA52KY-Q" name="Class2">
+    <ownedAttribute xmi:id="_4eKRYA_rEeOR3fyA52KY-Q" name="attribute1" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gTrAIA_nEeOR3fyA52KY-Q" name="Class3">
+    <ownedAttribute xmi:id="_2rTzsA_rEeOR3fyA52KY-Q" name="attribute1" visibility="private"/>
+    <ownedAttribute xmi:id="_3dYJ0A_rEeOR3fyA52KY-Q" name="attribute2" visibility="private"/>
+  </packagedElement>
   <profileApplication xmi:id="_vypsFA_mEeOR3fyA52KY-Q">
     <eAnnotations xmi:id="_vypsFQ_mEeOR3fyA52KY-Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
