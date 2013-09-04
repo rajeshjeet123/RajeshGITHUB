@@ -30,7 +30,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_183cERBpEeOR3fyA52KY-Q" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_183cEhBpEeOR3fyA52KY-Q" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_184DIBBpEeOR3fyA52KY-Q" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_181m4RBpEeOR3fyA52KY-Q" x="18388" y="3042"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_181m4RBpEeOR3fyA52KY-Q" x="18386" y="3170"/>
         </children>
       </contents>
     </eAnnotations>
@@ -150,7 +150,10 @@
         </contents>
       </eAnnotations>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_rfSC4BBpEeOR3fyA52KY-Q" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rfSC4BBpEeOR3fyA52KY-Q" name="Class1">
+      <ownedAttribute xmi:id="_jDYk4BVcEeOMCPihUzpbsw" name="attribute1" visibility="private"/>
+      <ownedOperation xmi:id="_zj5d4BO8EeOwa8zsvYVPPw" name="opA"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_slsRUBBpEeOR3fyA52KY-Q" name="Customers">
       <ownedAttribute xmi:id="_12iKkBBpEeOR3fyA52KY-Q" name="customernumber" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
